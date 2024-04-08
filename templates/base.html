@@ -6,6 +6,10 @@
 
     <title>{% block title %}{% endblock %}</title>
     <link rel="icon" type="image/x-icon" href="/static/images/favIcon.png">
+
+    <!--Normalize-->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/normalize.css') }}">
+    <!--Style-->
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
 </head>
 
